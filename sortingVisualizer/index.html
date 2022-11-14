@@ -17,9 +17,11 @@
             </div>
             <div class="col" id="input">
                 <span id="size">
+                    <span>Size</span>
                     <input type="range" id="arr_size" max="100" min="10" step="1" value="60">
                 </span>
                 <span id="speed">
+                    <span>Speed</span>
                         <input type="range" id="speed_input" stepdown = "10" max="300" min="20"  value="60">
                 </span>
             </div>
@@ -29,6 +31,10 @@
                 <button type="button" class="btn btn-outline-success btn-drak insertionSort">Insertion sort</button>
                 <button type="button" class="btn btn-outline-success btn-drak quickSort">Quick sort</button>
                 <button type="button" class="btn btn-outline-success btn-drak mergeSort">Merge sort</button>
+                <button type="button" class="btn btn-outline-success btn-drak mergeSort stop-btn" onClick="window.location.reload()">
+                    Stop
+                 </button>
+                 
             </div>
         </div>
     </nav>

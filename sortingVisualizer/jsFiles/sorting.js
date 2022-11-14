@@ -54,9 +54,7 @@ function waitforme(milisec){
     return new Promise(resolve => {
         setTimeout(()=> {resolve("")},milisec);
     })
-    // return new(resolve => {
-    //     setTimeout(()=> {resolve("")},milisec);
-    // })
+  
 }
 
 // Select size slider frome DOM
